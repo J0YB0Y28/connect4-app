@@ -1,19 +1,19 @@
-# 🎮 Power4 App - Jeu de Puissance 4 en ligne
+# 🎮 Connect4 App - Jeu de Puissance 4 en ligne
 
-Bienvenue dans **Power4 App**, un jeu web complet de **Puissance 4** multijoueur (joueur vs joueur ou joueur vs IA). Il a été conçu avec **Flask** pour le backend, **React + Tailwind CSS** pour le frontend, et une IA configurable selon 3 niveaux de difficulté.
+Bienvenue dans **Connect4 App**, un jeu web complet de **Puissance 4** multijoueur (joueur vs joueur ou joueur vs IA). Il a été conçu avec **Flask** pour le backend, **React + Tailwind CSS** pour le frontend, et une IA configurable selon 3 niveaux de difficulté.
 
 ---
 
 ## 🔗 Démo en ligne
 
-🌐 Application Web : [https://power4-app-j0yb0y28.vercel.app/](https://power4-app-j0yb0y28.vercel.app/)
+🌐 Application Web : [https://connect4-app-j0yb0y28.vercel.app/](https://connect4-app-j0yb0y28.vercel.app/)
 
 ---
 
 ## 📁 Structure du projet
 
 ```
-power4-app/
+connect4-app/
 ├── backend/                   # API Flask + logique du jeu
 │   ├── app.py                 # API REST (démarrage, move, IA)
 │   └── logic.py               # Moteur du jeu Puissance 4 avec IA
@@ -42,8 +42,8 @@ power4-app/
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/J0YB0Y28/power4-app.git
-cd power4-app
+git clone https://github.com/J0YB0Y28/connect4-app.git
+cd connect4-app
 ```
 
 ### 2. Backend : Flask
